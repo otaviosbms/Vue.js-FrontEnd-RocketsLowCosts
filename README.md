@@ -10,8 +10,8 @@ Primeiro, você deve clonar o projeto na sua máquina, para isso você
 pode colar o seguinte comando em seu terminal
 
 ```bash
-git clone https://github.com/henrylacava/frontend-cardapio-digital.git
-cd frontend-cardapio-digital
+git clone https://github.com/otaviosbms/Vue.js-FrontEnd-RocketsLowCosts.git
+cd Vue.js-FrontEnd-RocketsLowCosts
 ```
 
 Para instalar as dependências, execute o seguinte comando:
