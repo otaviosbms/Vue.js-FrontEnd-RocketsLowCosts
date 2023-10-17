@@ -28,6 +28,12 @@ const router = createRouter({
       component: () => import('../views/LancamentoView.vue'),
     },
 
+    {
+      path: '/lancamento',
+      name: 'meus-lancamentos',
+      component: () => import('../views/MeusLancamentosView.vue'),
+    },
+
   ]
 })
 

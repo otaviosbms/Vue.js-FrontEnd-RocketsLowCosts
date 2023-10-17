@@ -5,7 +5,6 @@
 
         <input class="form-control mt-4" id="nome" type="text" v-model="nome" placeholder="Digite seu nome">
 
-
         <button class="btn btn-primary my-3" type="submit">Entrar</button>
 
         <button @click="CriarUsuario" class="btn btn-secondary mx-1 my-3" type="submit">Criar Usuário</button>

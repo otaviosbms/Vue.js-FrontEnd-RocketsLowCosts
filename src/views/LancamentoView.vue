@@ -1,4 +1,5 @@
 <template>
+
     <div class="rocket-card">
 
         <img class=" imagem" :src="resposta.imagem" alt="foto do foguete">
@@ -24,6 +25,7 @@
         </div>
 
         <button class="btn btn-primary my-3" type="submit">Lançar</button>
+
         <router-link class="btn btn-secondary mx-1 my-3 " :to="{ name: 'foguetes' }">
             Voltar aos foguetes
         </router-link>
@@ -41,6 +43,7 @@ export default {
             data: null,
             lucro: null,
             resposta: [],
+            response: []
 
         };
     },
@@ -60,15 +63,17 @@ export default {
 
     methods: {
         LancarFoguete() {
-            axios.post('http://127.0.0.1:8000/api/foguetes/lancamento', {
+            const id = this.$route.params.id;
+            axios.post('http://127.0.0.1:8000/api/foguetes/lancamento/' + id, {
                 data: this.data,
                 lucro: this.lucro
             })
 
                 .then(response => {
-                    this.response = response.data;
+                    alert('Lançamento do foguete criado com sucesso!')
                 })
                 .catch(error => {
+                    alert('Lançamento já cadastrado!')
                     console.error('Erro na requisição:', error);
                 });
 
