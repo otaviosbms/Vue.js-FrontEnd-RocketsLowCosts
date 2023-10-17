@@ -23,13 +23,13 @@ const router = createRouter({
     },
 
     {
-      path: '/lancamento/:id',
+      path: '/foguetes/lancamento/:id',
       name: 'lancamento',
       component: () => import('../views/LancamentoView.vue'),
     },
 
     {
-      path: '/lancamento',
+      path: '/lancamentos',
       name: 'meus-lancamentos',
       component: () => import('../views/MeusLancamentosView.vue'),
     },

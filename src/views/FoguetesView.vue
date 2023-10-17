@@ -16,7 +16,7 @@
 
                 <img class="imagem mb-1" :src="foguete.imagem" alt="foto do foguete">
                 <h1>{{ foguete.nome }}</h1>
-                <h6>Custo de lançamento: {{ foguete.custo }}</h6>
+                <h6>Custo de lançamento: USD {{ foguete.custo }}</h6>
                 <h6>Tipo e versão do motor:</h6>
                 <ul>
                     <li>{{ foguete.motor_tipo }}</li>
