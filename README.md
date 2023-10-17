@@ -1,35 +1,33 @@
 # RocketsLowCosts-FrontEnd
 
-This template should help get you started developing with Vue 3 in Vite.
+## Requisitos
 
-## Recommended IDE Setup
+Antes de iniciar, você deve ter o Node.js e o NPM instalados em sua máquina.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Instalando
 
-## Customize configuration
+Primeiro, você deve clonar o projeto na sua máquina, para isso você
+pode colar o seguinte comando em seu terminal
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```bash
+git clone https://github.com/otaviosbms/Vue.js-FrontEnd-RocketsLowCosts.git
+cd Vue.js-FrontEnd-RocketsLowCosts
+```
 
-## Project Setup
+Para instalar as dependências, execute o seguinte comando:
 
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Por fim, para executar o projeto basta rodar o seguinte:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Integração com Backend
 
-```sh
-npm run build
-```
+Para realizar a integração com o Backend, você pode clonar o projeto e rodar localmente, ou desenvolver você mesmo.
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+👉 [Link do repositório](https://github.com/otaviosbms/Laravel-API-RocketsLowCosts)
